@@ -1,0 +1,97 @@
+.transfer-form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 51, 0.8); 
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.transfer-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.transfer-form-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.transfer-form-container input,
+.transfer-form-container select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.transfer-form-container button {
+    padding: 10px;
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.transfer-form-container button:hover {
+    background-color: #00264d;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.popup button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background-color: #ddd;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.message.success {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.message.error {
+    background-color: #f44336;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .transfer-form-container {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .popup {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .popup button {
+        padding: 8px;
+    }
+}

@@ -1,0 +1,51 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 20px;
+}
+
+.bank-icon {
+    width: 55px; 
+    height: 55px; 
+    margin-right: 10px;
+    cursor: pointer; 
+}
+
+h1 {
+    font-size: 24px; 
+    margin: 0;
+    font-weight: bold;
+    flex: 1; 
+}
+
+.home-link {
+    text-decoration: none; 
+    color: inherit;
+}
+
+.home-link:hover {
+    text-decoration: none;
+}
+
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.popup p {
+    margin: 0 0 20px;
+}
+
+.popup button {
+    margin-right: 10px;
+}
